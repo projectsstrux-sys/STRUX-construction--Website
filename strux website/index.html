@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>STRUX Construction Consultancy</title>
+<style>
+/* ===== Body ===== */
+body {
+    font-family: "Times New Roman", Helvetica, sans-serif;
+    margin: 0;
+    background: #e0e0e0; /* light grey main background */
+    color: #333; /* dark grey text */
+}
+
+/* ===== Header ===== */
+header {
+    background: #ff6600; /* orange header */
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+header img {
+    height: 120px;
+}
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* ===== Navigation ===== */
+nav {
+    background: #111; /* black nav */
+    text-align: center;
+}
+nav a {
+    color: white;
+    padding: 14px 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+nav a:hover {
+    background: #ff6600; /* orange hover */
+}
+
+/* ===== Hero Section ===== */
+.hero {
+    background: url('https://images.unsplash.com/photo-1503387762-592deb58ef4e') center/cover no-repeat;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.hero h2 {
+    background: rgba(0,0,0,0.6);
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+
+/* ===== Sections ===== */
+section {
+    padding: 40px;
+    max-width: 1100px;
+    margin: 20px auto;
+    background: white; /* white card background */
+    border-radius: 6px;
+}
+
+/* Headings */
+h2 {
+    color: #ff6600; /* orange headings */
+}
+
+/* ===== Services Cards ===== */
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.card {
+    background: #f4f4f4; /* light grey card */
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* ===== Gallery ===== */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+.gallery img {
+    width: 100%;
+    border-radius: 6px;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* ===== Contact Section ===== */
+.contact p {
+    margin: 8px 0;
+}
+
+/* ===== Footer ===== */
+footer {
+    background: #111; /* black footer */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+<img src="logo.png" alt="STRUX Logo">
+<h1>STRUX Construction Consultancy</h1>
+<p>Professional Construction Consultancy | Quantity Surveying | Project Management</p>
+</header>
+
+<!-- Navigation -->
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#projects">Projects</a>
+<a href="#vision">Vision & Mission</a>
+<a href="#leadership">Leadership</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<!-- Hero -->
+<div class="hero">
+<h2>Reliable Construction Consultancy Solutions</h2>
+</div>
+
+<!-- About Section -->
+<section id="about">
+<h2>About STRUX</h2>
+<p>STRUX Construction Consultancy is a professional consultancy firm specializing in providing expert guidance and technical support for construction and building projects.</p>
+<p>We provide consultancy services including project planning, cost management, construction supervision, remodeling, and technical advisory support.</p>
+<p>Our team assists clients throughout the entire project lifecycle — from planning and budgeting to construction and completion — ensuring projects are delivered safely, efficiently, and within budget.</p>
+</section>
+
+<!-- Services Section -->
+<section id="services">
+<h2>Our Services</h2>
+<div class="services">
+<div class="card">
+<h3>Construction Consultancy</h3>
+<p>Professional guidance for construction projects from concept to completion.</p>
+</div>
+<div class="card">
+<h3>Project Planning & Management</h3>
+<p>Structured project planning, scheduling, and management for efficient project delivery.</p>
+</div>
+<div class="card">
+<h3>Quantity Surveying & Cost Management</h3>
+<p>Cost estimation, budgeting, tender documentation, and financial monitoring.</p>
+</div>
+<div class="card">
+<h3>Construction Supervision</h3>
+<p>Monitoring construction activities to ensure compliance with quality and safety standards.</p>
+</div>
+<div class="card">
+<h3>Remodeling & Renovation</h3>
+<p>Professional solutions for building upgrades, renovations, and remodeling.</p>
+</div>
+<div class="card">
+<h3>Technical Advisory Services</h3>
+<p>Expert advice to support design, procurement, and construction decision-making.</p>
+</div>
+</div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+<h2>Construction & Project Gallery</h2>
+<p>Some example construction and renovation work related to our consultancy services.</p>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd" alt="Project 1">
+<img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625" alt="Project 2">
+<img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5" alt="Project 3">
+<img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e" alt="Project 4">
+<img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231" alt="Project 5">
+<img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29" alt="Project 6">
+</div>
+</section>
+
+<!-- Vision & Mission Section -->
+<section id="vision">
+<h2>Vision</h2>
+<p>To be a trusted and innovative construction consultancy recognized for delivering reliable, high-quality construction and remodeling solutions.</p>
+<h2>Mission</h2>
+<p>To provide professional construction consultancy and remodeling services through effective project management, accurate cost control, and expert technical guidance.</p>
+</section>
+
+<!-- Leadership Section -->
+<section id="leadership">
+<h2>Leadership</h2>
+<h3>Mr. Kushan Waidyajeewa</h3>
+<p><strong>Director | Senior Quantity Surveyor</strong></p>
+<p>Mr. Kushan Waidyajeewa leads STRUX Construction Consultancy with professional expertise in quantity surveying, cost management, and construction project consultancy.</p>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+<h2>Contact Us</h2>
+<p><strong>Email:</strong> projects.strux@gmail.com</p>
+<p><strong>Website:</strong> www.struxconsultancy.com</p>
+<p><strong>Phone:</strong> +94 76 4040 064</p>
+</section>
+
+<!-- Footer -->
+<footer>
+<p>© 2026 STRUX Construction Consultancy | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
